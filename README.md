@@ -84,12 +84,16 @@ Exercise 2: Refactor the display of a list of names
 Next, let's display a list of names. Replace the html in the App class with a tabular display like this:
 
         <table>
-        <tr><th>Number</th><th>Name</th></tr>
-        <tr><td>0</td><td>Amy</td></tr>
-        <tr><td>1</td><td>Joe</td></tr>
-        <tr><td>2</td><td>Sam</td></tr>
-        <tr><td>3</td><td>Fred</td></tr>
-        <tr><td>4</td><td>Julie</td></tr>
+            <thead>
+                <tr><th>Number</th><th>Name</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>0</td><td>Amy</td></tr>
+                <tr><td>1</td><td>Joe</td></tr>
+                <tr><td>2</td><td>Sam</td></tr>
+                <tr><td>3</td><td>Fred</td></tr>
+                <tr><td>4</td><td>Julie</td></tr>
+            </tbody>
         </table>
 
 Play around a bit until you understand what the pieces do.
