@@ -4,8 +4,11 @@ Lab 5
 Introduction to ReactJS
 -----------------------
 
-The docker image for this lab is identical to the image for project 5. You can 
-either use the p5 image, or build a separate image.
+This repo is a very slightly modified form of the Lab-05 repository. I've
+simply added a small user interaction to explain one way to handle "state"
+in a trivial React context. The only modified files are `src/App.tsx` and 
+`src/App.css`. There is a button that simply toggles a class between two
+css classes that defined a green or red background color.
 
 You can run the image using:
 
